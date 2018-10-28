@@ -10,6 +10,19 @@ def main():
     choice = int(input("Please choose from the following\n1. GitHub\n2. Facebook\n3. Twitter\n")) # Add more choices here
     if choice == 1:
         print("https://github.com")
+    else:
+        giveMeAnOctocat()
+
+def giveMeAnOctocat():
+    print("""
+            ./\_/\.
+          . ( o.o )
+           \_| ^ |    _
+        -.___'.  ( ,-'
+             '-.O.'-..-..   
+               ; \_.-._
+            ._/
+        """)
 
 if __name__ == "__main__":
     main()
